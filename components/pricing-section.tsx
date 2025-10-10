@@ -66,14 +66,14 @@ export function PricingSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-3">
-                  {plan.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start gap-3">
-                      <Check className="mt-0.5 h-5 w-5 shrink-0 text-ring" />
-                      <span className="text-sm">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              <ul className="space-y-3">
+                {plan.features.map((feature, featureIndex) => (
+                  <li key={featureIndex} className="flex items-start gap-3">
+                    <Check className="mt-0.5 h-5 w-5 shrink-0 text-ring" />
+                    <span className="text-sm">{feature}</span>
+                  </li>
+                ))}
+              </ul>
               </CardContent>
               <CardFooter>
                 <Button
