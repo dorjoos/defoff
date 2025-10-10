@@ -1,0 +1,187 @@
+{
+  "header": {
+    "services": "Үйлчилгээ",
+    "about": "Бидний тухай",
+    "resources": "Нөөц",
+    "contactUs": "Холбогдох",
+    "getAssessment": "Үнэлгээ авах"
+  },
+  "hero": {
+    "badge": "Довтолгооны аргаар хамгаалах",
+    "title": "Халдагчаас өмнө хамгаалъя",
+    "description": "Гэрчилгээтэй мэргэжилтнүүд таны системийг халдагчийн өнцгөөс шалгаж, эрсдэлийг илрүүлж арилгана.",
+    "scheduleAssessment": "Үнэлгээ товлох",
+    "viewSampleReport": "Жишээ тайлан",
+    "trustedBy": "Fortune 500 компаниудын итгэлийг хүлээсэн • CREST, OSCP гэрчилгээтэй • 100% нууцлалтай",
+    "stats": {
+      "securityAudits": "Аудит",
+      "vulnerabilitiesFound": "Олдсон уязвим байдал",
+      "threatMonitoring": "Аюул хяналт",
+      "clientSatisfaction": "Сэтгэл ханамж"
+    }
+  },
+  "footer": {
+    "description": "Мэргэжлийн нэвтрэлт тест, аюулгүй байдлын үнэлгээгээр таны бизнесийг кибер аюулаас хамгаална.",
+    "services": "Үйлчилгээ",
+    "networkPentesting": "Сүлжээний тест",
+    "webAppSecurity": "Веб аюулгүй байдал",
+    "cloudSecurity": "Үүлэн аюулгүй байдал",
+    "redTeamOps": "Red Team",
+    "company": "Компани",
+    "aboutUs": "Бидний тухай",
+    "ourTeam": "Манай баг",
+    "certifications": "Гэрчилгээ",
+    "contact": "Холбогдох",
+    "resources": "Нөөц",
+    "securityBlog": "Блог",
+    "caseStudies": "Жишээ судалгаа",
+    "whitepapers": "Тайлан",
+    "faq": "Асуултууд",
+    "copyright": "© 2025 DEFFOFF. Бүх эрх хуулиар хамгаалагдсан.",
+    "privacyPolicy": "Нууцлал",
+    "termsOfService": "Нөхцөл",
+    "responsibleDisclosure": "Хариуцлагатай ил тод байдал"
+  },
+  "about": {
+    "title": "Манай багтай танилц",
+    "description": "Кибер аюулгүй байдлын туршлагатай, гэрчилгээтэй мэргэжилтнүүд.",
+    "sarahChen": {
+      "name": "Sarah Chen",
+      "role": "Гүйцэтгэх захирал, тэргүүлэх тестчин",
+      "bio": "OSCP, OSWE гэрчилгээтэй. 12+ жилийн туршлагатай."
+    },
+    "marcusRodriguez": {
+      "name": "Marcus Rodriguez",
+      "role": "Технологийн захирал",
+      "bio": "Fortune 500 компаниудад ажилласан, аппликейшн аюулгүй байдлын мэргэжилтэн."
+    },
+    "emilyWatson": {
+      "name": "Emily Watson",
+      "role": "Нийцлийн хэлтсийн дарга",
+      "bio": "ISO 27001 аудитор, PCI DSS стандартын мэргэжилтэн."
+    }
+  },
+  "features": {
+    "title": "Аюулгүй байдлын үйлчилгээ",
+    "description": "Жинхэнэ халдагчийн аргаар системийг шалгана.",
+    "networkPentesting": {
+      "title": "Сүлжээний тест",
+      "description": "Сүлжээний уязвим байдал, тохиргооны алдааг илрүүлнэ."
+    },
+    "webAppSecurity": {
+      "title": "Веб аюулгүй байдал",
+      "description": "OWASP Top 10 аргаар SQL injection, XSS, CSRF гэх мэт алдааг илрүүлнэ."
+    },
+    "socialEngineering": {
+      "title": "Нийгмийн инженерчлэл",
+      "description": "Фишинг, вишинг тест хийж, ажилтнуудыг халдлагыг таних сургалт өгнө."
+    },
+    "detailedReporting": {
+      "title": "Тайлан",
+      "description": "Удирдлагад зориулсан хураангуй, техникийн олдвор, засварын зөвлөмжтэй."
+    }
+  },
+  "certifications": {
+    "title": "Гэрчилгээ ба стандарт",
+    "oscp": {
+      "name": "OSCP",
+      "fullName": "Offensive Security Certified Professional",
+      "description": "Нэвтрэлт тестийн мэргэжилтэн"
+    },
+    "oswe": {
+      "name": "OSWE",
+      "fullName": "Offensive Security Web Expert",
+      "description": "Веб аюулгүй байдлын мэргэжилтэн"
+    },
+    "iso27001": {
+      "name": "ISO 27001",
+      "fullName": "Information Security Management",
+      "description": "Олон улсын аюулгүй байдлын стандарт"
+    },
+    "pciDss": {
+      "name": "PCI DSS",
+      "fullName": "Payment Card Industry Data Security Standard",
+      "description": "Төлбөрийн системийн стандарт"
+    }
+  },
+  "cta": {
+    "badge": "Бизнесээ хамгаалаарай",
+    "title": "Аюул гарсны дараа биш, өмнө тест хийлгээрэй",
+    "description": "Ёс зүйн хакеруудтай хамт аюулгүй байдлын үнэлгээ хийлгэж, уязвим байдлаа илрүүлж хамгаалаарай.",
+    "scheduleConsultation": "Үнэгүй зөвлөгөө",
+    "downloadReport": "Жишээ тайлан"
+  },
+  "pricing": {
+    "title": "Үнийн санал",
+    "description": "Танд тохирох аюулгүй байдлын багцыг сонгоорой.",
+    "mostPopular": "Түгээмэл",
+    "essential": {
+      "name": "Үндсэн",
+      "price": "$2,500",
+      "description": "Жижиг бизнесүүдэд тохиромжтой",
+      "features": [
+        "Сүлжээний скан",
+        "Веб үнэлгээ",
+        "OWASP Top 10 тест",
+        "Хураангуй тайлан",
+        "30 хоногийн дэмжлэг"
+      ],
+      "cta": "Эхлэх"
+    },
+    "professional": {
+      "name": "Мэргэжлийн",
+      "price": "$7,500",
+      "description": "Өсөн дэвжиж буй компаниудад",
+      "features": [
+        "Бүрэн сүлжээний тест",
+        "Веб ба мобайл тест",
+        "Нийгмийн инженерчлэл",
+        "Техникийн тайлан",
+        "90 хоногийн дэмжлэг",
+        "Дахин тест",
+        "Нийцлийн зураглал"
+      ],
+      "cta": "Үнэлгээ товлох"
+    },
+    "enterprise": {
+      "name": "Аж ахуйн нэгж",
+      "price": "Тусгай",
+      "description": "Том байгууллагад зориулсан иж бүрэн үйлчилгээ",
+      "features": [
+        "Тасралтгүй тест",
+        "Red Team ажиллагаа",
+        "Үүлэн үнэлгээ",
+        "API аюулгүй байдал",
+        "Тусгай зөвлөх",
+        "Улирал тутмын үнэлгээ",
+        "24/7 хариу үйлчилгээ",
+        "Нийцлийн тайлан"
+      ],
+      "cta": "Холбогдох"
+    },
+    "perAssessment": "/үнэлгээ"
+  },
+  "testimonials": {
+    "title": "Хэрэглэгчдийн итгэл",
+    "description": "Олон байгууллага бидэнд итгэдэг.",
+    "davidMartinez": {
+      "name": "David Martinez",
+      "role": "FinTech Global, CISO",
+      "content": "SecureShield бидний мэдээгүй байсан ноцтой уязвим байдлыг илрүүлсэн. Тэдний тайлан, зөвлөмж нь SOC 2 нийцлийг түрүүлж хангахад тус болсон."
+    },
+    "rachelKim": {
+      "name": "Rachel Kim",
+      "role": "HealthTech Inc, инженерийн дэд захирал",
+      "content": "Тэд HIPAA нийцлийн цоорхойг олж, тодорхой шийдэл санал болгосон. Манай систем илүү найдвартай болсон."
+    },
+    "jamesThompson": {
+      "name": "James Thompson",
+      "role": "E-Commerce Solutions, CTO",
+      "content": "Веб тестийн дараа бид 15 ноцтой уязвим байдлыг зассан. SecureShield-ийн идэвхтэй арга барил биднийг халдлагаас аварсан."
+    }
+  },
+  "common": {
+    "loading": "Ачааллаж байна...",
+    "language": "Хэл"
+  }
+}
