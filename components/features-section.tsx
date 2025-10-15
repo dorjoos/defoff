@@ -8,11 +8,7 @@ export function FeaturesSection() {
   const t = useTranslations('features')
   
   const features = [
-    {
-      icon: Search,
-      title: t('networkPentesting.title'),
-      description: t('networkPentesting.description'),
-    },
+   
     {
       icon: Bug,
       title: t('webAppSecurity.title'),
@@ -22,6 +18,11 @@ export function FeaturesSection() {
       icon: Lock,
       title: t('socialEngineering.title'),
       description: t('socialEngineering.description'),
+    },
+    {
+      icon: Search,
+      title: t('networkPentesting.title'),
+      description: t('networkPentesting.description'),
     },
     {
       icon: FileText,
