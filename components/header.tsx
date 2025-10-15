@@ -39,7 +39,7 @@ export function Header() {
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
               </svg>
             </div>
-            <span className="text-xl font-bold"><span className="text-ring" style={{ color: "#006ef5ff" }}>DEFF</span>/-OFF</span>
+            <span className="text-xl font-bold"><span className="text-ring" style={{ color: "#006ef5ff" }}>DEF</span>/-OFF</span>
           </Link>
 
           <nav className="hidden items-center gap-6 md:flex">
