@@ -10,7 +10,7 @@ import { Suspense } from "react"
 import { locales } from "../../i18n"
 
 export const metadata: Metadata = {
-  title: "SecureShield - Cybersecurity Pentesting",
+  title: "Def-Off - Cybersecurity Pentesting",
   description: "Expert penetration testing and vulnerability assessments",
   generator: "v0.app",
 }

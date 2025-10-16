@@ -78,7 +78,7 @@ export function Header() {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => switchLanguage(locale === 'en' ? 'mn' : 'en')}
+              onClick={() => switchLanguage(locale === 'mn' ? 'mn' : 'en')}
               className="flex items-center gap-1"
             >
               <Globe className="h-4 w-4" />

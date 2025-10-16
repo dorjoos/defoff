@@ -1,192 +1,6 @@
 // Static translation maps
 export const translations = {
-  en: {
-    header: {
-      services: "Services",
-      about: "About",
-      resources: "Resources",
-      contactUs: "Contact Us",
-      getAssessment: "Get Assessment"
-    },
-    hero: {
-      badge: "Defense Through Offensive Security",
-      title: "Secure your infrastructure before attackers do",
-      description: "Expert penetration testing and vulnerability assessments from certified ethical hackers. We defend your business by thinking like attackers—identifying and eliminating security risks before they're exploited.",
-      scheduleAssessment: "Schedule Assessment",
-      viewSampleReport: "View Sample Report",
-      trustedBy: "Trusted by Fortune 500 companies • CREST & OSCP certified • 100% confidential",
-      stats: {
-        securityAudits: "Security Audits",
-        vulnerabilitiesFound: "Vulnerabilities Found",
-        threatMonitoring: "Threat Monitoring",
-        clientSatisfaction: "Client Satisfaction"
-      }
-    },
-    footer: {
-      description: "Defense through offensive security. Expert penetration testing and security assessments to protect your business from cyber threats.",
-      services: "Services",
-      networkPentesting: "Network Pentesting",
-      webAppSecurity: "Web App Security",
-      cloudSecurity: "Cloud Security",
-      redTeamOps: "Red Team Ops",
-      company: "Company",
-      aboutUs: "About Us",
-      ourTeam: "Our Team",
-      certifications: "Certifications",
-      contact: "Contact",
-      resources: "Resources",
-      securityBlog: "Security Blog",
-      caseStudies: "Case Studies",
-      whitepapers: "Whitepapers",
-      faq: "FAQ",
-      copyright: "© 2025 DEFFOFF. All rights reserved.",
-      privacyPolicy: "Privacy Policy",
-      termsOfService: "Terms of Service",
-      responsibleDisclosure: "Responsible Disclosure"
-    },
-    about: {
-      title: "Meet Our Security Experts",
-      description: "Our team of certified professionals brings decades of combined experience in cybersecurity and penetration testing.",
-      sarahChen: {
-        name: "Sarah Chen",
-        role: "CEO & Lead Penetration Tester",
-        bio: "OSCP & OSWE certified with 12+ years of experience in offensive security and vulnerability research."
-      },
-      marcusRodriguez: {
-        name: "Marcus Rodriguez",
-        role: "CTO & Security Architect",
-        bio: "Former security consultant for Fortune 500 companies, specializing in application security and threat modeling."
-      },
-      emilyWatson: {
-        name: "Emily Watson",
-        role: "Head of Compliance",
-        bio: "ISO 27001 Lead Auditor with expertise in PCI DSS implementation and security compliance frameworks."
-      }
-    },
-    features: {
-      title: "Comprehensive security testing services",
-      description: "Our certified ethical hackers use the same techniques as real attackers to find and fix vulnerabilities.",
-      networkPentesting: {
-        title: "Network Penetration Testing",
-        description: "Comprehensive assessment of your network infrastructure to identify vulnerabilities, misconfigurations, and potential entry points before malicious actors exploit them."
-      },
-      webAppSecurity: {
-        title: "Web Application Security",
-        description: "In-depth analysis of your web applications using OWASP Top 10 methodology. We identify SQL injection, XSS, CSRF, and other critical vulnerabilities."
-      },
-      socialEngineering: {
-        title: "Mobile App Security Tests",
-        description: "Mobile app security testing to identify vulnerabilities and potential entry points before malicious actors exploit them."
-      },
-      detailedReporting: {
-        title: "Detailed Reporting",
-        description: "Receive comprehensive reports with executive summaries, technical findings, risk ratings, and actionable remediation steps. Track your security posture over time."
-      }
-    },
-    certifications: {
-      title: "Certified & Compliant",
-      oscp: {
-        name: "OSCP",
-        fullName: "Offensive Security Certified Professional",
-        description: "Advanced penetration testing certification"
-      },
-      oswe: {
-        name: "OSWE",
-        fullName: "Offensive Security Web Expert",
-        description: "Web application security specialist"
-      },
-      iso27001: {
-        name: "ISO 27001",
-        fullName: "Information Security Management",
-        description: "International security standard compliance"
-      },
-      pciDss: {
-        name: "PCI DSS",
-        fullName: "Payment Card Industry Data Security Standard",
-        description: "Payment security implementation expert"
-      }
-    },
-    cta: {
-      badge: "Protect Your Business Today",
-      title: "Don't wait for a breach to test your security",
-      description: "Schedule a comprehensive security assessment with our certified ethical hackers. Identify vulnerabilities before attackers do and protect your critical assets.",
-      scheduleConsultation: "Schedule Free Consultation",
-      downloadReport: "Download Sample Report"
-    },
-    pricing: {
-      title: "Transparent security pricing",
-      description: "Choose the security assessment package that fits your needs. All plans include detailed reporting and remediation guidance.",
-      mostPopular: "Most Popular",
-      essential: {
-        name: "Essential",
-        price: "$2,500",
-        description: "Perfect for startups and small businesses",
-        features: [
-          "External network scan",
-          "Web application assessment",
-          "OWASP Top 10 testing",
-          "Executive summary report",
-          "30-day remediation support"
-        ],
-        cta: "Get Started"
-      },
-      professional: {
-        name: "Professional",
-        price: "$7,500",
-        description: "Comprehensive testing for growing companies",
-        features: [
-          "Full network penetration test",
-          "Web & mobile app testing",
-          "Social engineering assessment",
-          "Detailed technical report",
-          "90-day remediation support",
-          "Retest after fixes",
-          "Compliance mapping (SOC 2, ISO 27001)"
-        ],
-        cta: "Schedule Assessment"
-      },
-      enterprise: {
-        name: "Enterprise",
-        price: "Custom",
-        description: "Advanced security for large organizations",
-        features: [
-          "Continuous security testing",
-          "Red team operations",
-          "Cloud infrastructure testing",
-          "API security assessment",
-          "Dedicated security consultant",
-          "Quarterly assessments",
-          "24/7 incident response",
-          "Custom compliance reporting"
-        ],
-        cta: "Contact Sales"
-      },
-      perAssessment: "/assessment"
-    },
-    testimonials: {
-      title: "Trusted by security-conscious leaders",
-      description: "Join hundreds of organizations that trust SecureShield to protect their critical infrastructure.",
-      davidMartinez: {
-        name: "David Martinez",
-        role: "CISO at FinTech Global",
-        content: "SecureShield's penetration testing uncovered critical vulnerabilities we didn't know existed. Their detailed reports and remediation guidance helped us achieve SOC 2 compliance ahead of schedule."
-      },
-      rachelKim: {
-        name: "Rachel Kim",
-        role: "VP of Engineering at HealthTech Inc",
-        content: "The team's expertise in healthcare security is unmatched. They identified HIPAA compliance gaps and provided actionable solutions. Our security posture has never been stronger."
-      },
-      jamesThompson: {
-        name: "James Thompson",
-        role: "CTO at E-Commerce Solutions",
-        content: "After a comprehensive web application pentest, we fixed 15 critical vulnerabilities before launch. SecureShield's proactive approach saved us from potential breaches and reputational damage."
-      }
-    },
-    common: {
-      loading: "Loading...",
-      language: "Language"
-    }
-  },
+  
   mn: {
     header: {
       services: "Үйлчилгээ",
@@ -374,6 +188,193 @@ export const translations = {
     common: {
       loading: "Ачааллаж байна...",
       language: "Хэл"
+    }
+  },
+  en: {
+    header: {
+      services: "Services",
+      about: "About",
+      resources: "Resources",
+      contactUs: "Contact Us",
+      getAssessment: "Get Assessment"
+    },
+    hero: {
+      badge: "Defense Through Offensive Security",
+      title: "Secure your infrastructure before attackers do",
+      description: "Expert penetration testing and vulnerability assessments from certified ethical hackers. We defend your business by thinking like attackers—identifying and eliminating security risks before they're exploited.",
+      scheduleAssessment: "Schedule Assessment",
+      viewSampleReport: "View Sample Report",
+      trustedBy: "Trusted by Fortune 500 companies • CREST & OSCP certified • 100% confidential",
+      stats: {
+        securityAudits: "Security Audits",
+        vulnerabilitiesFound: "Vulnerabilities Found",
+        threatMonitoring: "Threat Monitoring",
+        clientSatisfaction: "Client Satisfaction"
+      }
+    },
+    footer: {
+      description: "Defense through offensive security. Expert penetration testing and security assessments to protect your business from cyber threats.",
+      services: "Services",
+      networkPentesting: "Network Pentesting",
+      webAppSecurity: "Web App Security",
+      cloudSecurity: "Cloud Security",
+      redTeamOps: "Red Team Ops",
+      company: "Company",
+      aboutUs: "About Us",
+      ourTeam: "Our Team",
+      certifications: "Certifications",
+      contact: "Contact",
+      resources: "Resources",
+      securityBlog: "Security Blog",
+      caseStudies: "Case Studies",
+      whitepapers: "Whitepapers",
+      faq: "FAQ",
+      copyright: "© 2025 DEFFOFF. All rights reserved.",
+      privacyPolicy: "Privacy Policy",
+      termsOfService: "Terms of Service",
+      responsibleDisclosure: "Responsible Disclosure"
+    },
+    about: {
+      title: "Meet Our Security Experts",
+      description: "Our team of certified professionals brings decades of combined experience in cybersecurity and penetration testing.",
+      sarahChen: {
+        name: "Sarah Chen",
+        role: "CEO & Lead Penetration Tester",
+        bio: "OSCP & OSWE certified with 12+ years of experience in offensive security and vulnerability research."
+      },
+      marcusRodriguez: {
+        name: "Marcus Rodriguez",
+        role: "CTO & Security Architect",
+        bio: "Former security consultant for Fortune 500 companies, specializing in application security and threat modeling."
+      },
+      emilyWatson: {
+        name: "Emily Watson",
+        role: "Head of Compliance",
+        bio: "ISO 27001 Lead Auditor with expertise in PCI DSS implementation and security compliance frameworks."
+      }
+    },
+    features: {
+      title: "Comprehensive security testing services",
+      description: "Our certified ethical hackers use the same techniques as real attackers to find and fix vulnerabilities.",
+      networkPentesting: {
+        title: "Network Penetration Testing",
+        description: "Comprehensive assessment of your network infrastructure to identify vulnerabilities, misconfigurations, and potential entry points before malicious actors exploit them."
+      },
+      webAppSecurity: {
+        title: "Web Application Security",
+        description: "In-depth analysis of your web applications using OWASP Top 10 methodology. We identify SQL injection, XSS, CSRF, and other critical vulnerabilities."
+      },
+      socialEngineering: {
+        title: "Mobile App Security Tests",
+        description: "Mobile app security testing to identify vulnerabilities and potential entry points before malicious actors exploit them."
+      },
+      detailedReporting: {
+        title: "Detailed Reporting",
+        description: "Receive comprehensive reports with executive summaries, technical findings, risk ratings, and actionable remediation steps. Track your security posture over time."
+      }
+    },
+    certifications: {
+      title: "Certified & Compliant",
+      oscp: {
+        name: "OSCP",
+        fullName: "Offensive Security Certified Professional",
+        description: "Advanced penetration testing certification"
+      },
+      oswe: {
+        name: "OSWE",
+        fullName: "Offensive Security Web Expert",
+        description: "Web application security specialist"
+      },
+      iso27001: {
+        name: "ISO 27001",
+        fullName: "Information Security Management",
+        description: "International security standard compliance"
+      },
+      pciDss: {
+        name: "PCI DSS",
+        fullName: "Payment Card Industry Data Security Standard",
+        description: "Payment security implementation expert"
+      }
+    },
+    cta: {
+      badge: "Protect Your Business Today",
+      title: "Don't wait for a breach to test your security",
+      description: "Schedule a comprehensive security assessment with our certified ethical hackers. Identify vulnerabilities before attackers do and protect your critical assets.",
+      scheduleConsultation: "Schedule Free Consultation",
+      downloadReport: "Download Sample Report"
+    },
+    pricing: {
+      title: "Transparent security pricing",
+      description: "Choose the security assessment package that fits your needs. All plans include detailed reporting and remediation guidance.",
+      mostPopular: "Most Popular",
+      essential: {
+        name: "Essential",
+        price: "$2,500",
+        description: "Perfect for startups and small businesses",
+        features: [
+          "External network scan",
+          "Web application assessment",
+          "OWASP Top 10 testing",
+          "Executive summary report",
+          "30-day remediation support"
+        ],
+        cta: "Get Started"
+      },
+      professional: {
+        name: "Professional",
+        price: "$7,500",
+        description: "Comprehensive testing for growing companies",
+        features: [
+          "Full network penetration test",
+          "Web & mobile app testing",
+          "Social engineering assessment",
+          "Detailed technical report",
+          "90-day remediation support",
+          "Retest after fixes",
+          "Compliance mapping (SOC 2, ISO 27001)"
+        ],
+        cta: "Schedule Assessment"
+      },
+      enterprise: {
+        name: "Enterprise",
+        price: "Custom",
+        description: "Advanced security for large organizations",
+        features: [
+          "Continuous security testing",
+          "Red team operations",
+          "Cloud infrastructure testing",
+          "API security assessment",
+          "Dedicated security consultant",
+          "Quarterly assessments",
+          "24/7 incident response",
+          "Custom compliance reporting"
+        ],
+        cta: "Contact Sales"
+      },
+      perAssessment: "/assessment"
+    },
+    testimonials: {
+      title: "Trusted by security-conscious leaders",
+      description: "Join hundreds of organizations that trust SecureShield to protect their critical infrastructure.",
+      davidMartinez: {
+        name: "David Martinez",
+        role: "CISO at FinTech Global",
+        content: "SecureShield's penetration testing uncovered critical vulnerabilities we didn't know existed. Their detailed reports and remediation guidance helped us achieve SOC 2 compliance ahead of schedule."
+      },
+      rachelKim: {
+        name: "Rachel Kim",
+        role: "VP of Engineering at HealthTech Inc",
+        content: "The team's expertise in healthcare security is unmatched. They identified HIPAA compliance gaps and provided actionable solutions. Our security posture has never been stronger."
+      },
+      jamesThompson: {
+        name: "James Thompson",
+        role: "CTO at E-Commerce Solutions",
+        content: "After a comprehensive web application pentest, we fixed 15 critical vulnerabilities before launch. SecureShield's proactive approach saved us from potential breaches and reputational damage."
+      }
+    },
+    common: {
+      loading: "Loading...",
+      language: "Language"
     }
   }
   
