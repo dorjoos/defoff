@@ -75,8 +75,8 @@ export const translations = {
         description: "In-depth analysis of your web applications using OWASP Top 10 methodology. We identify SQL injection, XSS, CSRF, and other critical vulnerabilities."
       },
       socialEngineering: {
-        title: "Social Engineering Tests",
-        description: "Evaluate your human firewall with phishing campaigns, vishing, and physical security assessments. Train your team to recognize and prevent social engineering attacks."
+        title: "Mobile App Security Tests",
+        description: "Mobile app security testing to identify vulnerabilities and potential entry points before malicious actors exploit them."
       },
       detailedReporting: {
         title: "Detailed Reporting",
@@ -196,9 +196,9 @@ export const translations = {
       getAssessment: "Үнэлгээ авах"
     },
     hero: {
-      badge: "Довтолгооны аргаар хамгаалах",
-      title: "Халдагчаас түрүүлж хамгаалъя",
-      description: "Гэрчилгээтэй мэргэжилтнүүд таны системийг халдагчийн өнцгөөс шалгаж, эрсдэлийг илрүүлж арилгана.",
+      badge: "Бизнесээ хамгаал.",
+      title: "Бодит үнэлгээ, оновчтой шийдэл, итгэлтэй хамгаалалт",
+      description: "Мэргэжлийн баг, оновчтой шийдэл — мэдээллийн аюулгүй байдлын баталгааг танай бизнесэд авчирна. Системийн сул талыг илрүүлж, хамгаалалтаа шинэ түвшинд хүргэе.",
       scheduleAssessment: "Үнэлгээ товлох",
       viewSampleReport: "Жишээ тайлан",
       trustedBy: "Fortune 500 компаниудын итгэлийг хүлээсэн • CREST, OSCP гэрчилгээтэй • 100% нууцлалтай",
@@ -295,9 +295,9 @@ export const translations = {
       }
     },
     cta: {
-      badge: "Бизнесээ хамгаалаарай",
-      title: "Аюул гарсны дараа биш, өмнө тест хийлгээрэй",
-      description: "Ёс зүйн хакеруудтай хамт аюулгүй байдлын үнэлгээ хийлгэж, уязвим байдлаа илрүүлж хамгаалаарай.",
+      badge: "Эрсдэлийг хяна",
+      title: "Бодит үнэлгээ, оновчтой шийдэл, итгэлтэй хамгаалалт",
+      description: "Мэргэжлийн үнэлгээ, оновчтой шийдэл — мэдээллийн аюулгүй байдлын баталгааг танай бизнесэд авчирна. Системийн сул талыг илрүүлж, хамгаалалтаа шинэ түвшинд хүргэе.",
       scheduleConsultation: "Үнэгүй зөвлөгөө",
       downloadReport: "Тайлангийн жишээ татах"
     },
